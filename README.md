@@ -29,4 +29,6 @@ Bu proje, **bilgisayarla görme (Computer Vision) ve makine öğrenmesi (Machine
 ## 🎥 ÖRNEK ÇIKTI (OUTPUT VIDEO) 🚀
 Aşağıda projenin çalıştırılması sonucu elde edilen **örnek video çıkışı** bulunmaktadır:
 
+ffmpeg -i output_with_boxes.mp4 -r 10 -vf "scale=640:-1" output_with_boxes.gif
+
 ![Output Video](output_with_boxes.gif)
